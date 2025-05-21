@@ -108,7 +108,7 @@ retail-supply-chain-automation/
 ### Step 1: Environment Setup
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/retail-supply-chain-automation.git
+git clone https://github.com/seyed-hassani/retail-supply-chain-automation.git
 cd retail-supply-chain-automation
 
 # Install Python dependencies
@@ -290,9 +290,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Seyed Hassani**
-- 🐙 GitHub: [seyedhassani](https://github.com/seyedhassani)
-- 💼 LinkedIn: [Seyed Hassani](https://linkedin.com/in/seyedhassani)
-- ✉️ Email: contact@seyedhassani.com
+- 🐙 GitHub: [seyed-hassani](https://github.com/seyed-hassani)
+- 💼 LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
+- ✉️ Email: hassas98@mcmaster.ca
 
 ## 🙏 Acknowledgments
 
@@ -304,9 +304,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Having issues or questions? We're here to help!
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/YOUR_USERNAME/retail-supply-chain-automation/issues)
-- 💡 **Feature Requests**: [Request a feature](https://github.com/YOUR_USERNAME/retail-supply-chain-automation/issues/new?template=feature_request.md)
-- 💬 **General Questions**: [Start a discussion](https://github.com/YOUR_USERNAME/retail-supply-chain-automation/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/seyed-hassani/retail-supply-chain-automation/issues)
+- 💡 **Feature Requests**: [Request a feature](https://github.com/seyed-hassani/retail-supply-chain-automation/issues/new?template=feature_request.md)
+- 💬 **General Questions**: [Start a discussion](https://github.com/seyed-hassani/retail-supply-chain-automation/discussions)
 
 ---
 
