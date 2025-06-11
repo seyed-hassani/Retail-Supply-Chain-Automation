@@ -1,14 +1,14 @@
-# 🛒 Retail Supply Chain Automation with dbt + Snowflake
+#  Retail Supply Chain Automation with dbt + Snowflake
 
 An intelligent data automation pipeline designed for retail supply chain management. This project demonstrates how modern data engineering tools can transform raw sales and inventory data into actionable insights, automatically generating stock alerts and replenishment recommendations.
 
 ![Supply Chain Automation](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Supply+Chain+Dashboard)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This end-to-end solution simulates a real-world retail environment where inventory decisions must be made quickly based on sales patterns. The pipeline processes transactional data, applies business logic, and generates automated alerts to prevent stockouts while minimizing excess inventory.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```mermaid
 graph LR
@@ -19,7 +19,7 @@ graph LR
     E --> F[Visualization Layer]
 ```
 
-## 🔧 Technology Stack
+##  Technology Stack
 
 | Technology | Purpose | Benefits |
 |------------|---------|----------|
@@ -29,32 +29,32 @@ graph LR
 | **Jinja2 SQL** | Dynamic SQL templating | Reusable and maintainable SQL logic |
 | **Power BI/Looker** | Visualization (optional) | Business intelligence and reporting |
 
-## ✨ Key Features
+##  Key Features
 
-### 📊 Data Processing
+###  Data Processing
 - **Automated ETL pipeline** with Python orchestration
 - **Incremental data processing** for efficient performance
 - **Data quality checks** and validation rules
 - **Modular SQL transformations** using dbt best practices
 
-### 🚨 Smart Alerting
+###  Smart Alerting
 - **Dynamic reorder point calculations** based on sales velocity
 - **Stock risk categorization** (Critical, Warning, Healthy)
 - **Seasonal demand adjustments** for accurate forecasting
 - **Automated notification system** for procurement teams
 
-### 📈 Business Intelligence
+###  Business Intelligence
 - **Sales trend analysis** across products and categories
 - **Inventory turnover metrics** and optimization insights
 - **Supplier performance tracking** and lead time analysis
 - **Custom KPIs** for retail operations
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 retail-supply-chain-automation/
 │
-├── 📊 dbt_project/                     # dbt transformation layer
+├──  dbt_project/                     # dbt transformation layer
 │   ├── dbt_project.yml                # dbt project configuration
 │   ├── profiles.yml                   # Database connection settings
 │   └── models/                        # Data models directory
@@ -70,7 +70,7 @@ retail-supply-chain-automation/
 │           ├── sales_summary.sql     # Executive reporting
 │           └── inventory_forecast.sql # Demand planning
 │
-├── 🏔️ snowflake/                      # Database setup
+├──  snowflake/                      # Database setup
 │   ├── create_tables.sql             # DDL statements
 │   ├── sample_data/                  # Test datasets
 │   │   ├── sku.csv                  # Product catalog
@@ -78,27 +78,27 @@ retail-supply-chain-automation/
 │   │   └── sales.csv                # Transaction history
 │   └── setup_database.sql           # Initial database setup
 │
-├── 🐍 scripts/                        # Automation scripts
+├──  scripts/                        # Automation scripts
 │   ├── run_pipeline.py              # Main orchestration script
 │   ├── data_validation.py           # Quality checks
 │   └── alert_notifications.py       # Email/Slack alerts
 │
-├── 📋 tests/                          # Data quality tests
+├──  tests/                          # Data quality tests
 │   ├── test_data_integrity.sql      # Referential integrity
 │   └── test_business_rules.sql      # Business logic validation
 │
-├── 📖 docs/                           # Documentation
+├──  docs/                           # Documentation
 │   ├── data_dictionary.md           # Schema documentation
 │   └── business_requirements.md     # Functional specifications
 │
-├── 🔧 config/                         # Configuration files
+├──  config/                         # Configuration files
 │   ├── pipeline_config.yaml         # Pipeline parameters
 │   └── alert_thresholds.yaml        # Business rule settings
 │
-└── 📄 README.md                       # Project documentation
+└──  README.md                       # Project documentation
 ```
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Snowflake account with appropriate permissions
@@ -150,7 +150,7 @@ dbt run
 dbt test
 ```
 
-## 🔍 dbt Model Documentation
+##  dbt Model Documentation
 
 ### Staging Models
 | Model | Description | Key Transformations |
@@ -172,7 +172,7 @@ dbt test
 | `sales_summary` | Executive dashboard data | KPIs, trends, top performers |
 | `inventory_forecast` | Demand planning insights | Projected needs, safety stock levels |
 
-## 💼 Business Impact
+##  Business Impact
 
 ### Cost Optimization
 - **Reduce stockouts** by 35% through predictive alerting
@@ -189,7 +189,7 @@ dbt test
 - **Optimize supplier relationships** with performance metrics
 - **Enhance customer satisfaction** through improved product availability
 
-## 📊 Sample Business Rules
+##  Sample Business Rules
 
 ### Stock Alert Logic
 ```sql
@@ -206,7 +206,7 @@ END as stock_status
 (avg_daily_sales * lead_time_days * safety_factor) - current_inventory
 ```
 
-## 🎨 Visualization Options
+##  Visualization Options
 
 ### Power BI Integration
 - Connect directly to Snowflake using native connector
@@ -223,7 +223,7 @@ END as stock_status
 - Advanced analytics with Tableau's calculation engine
 - Mobile-responsive dashboards for field teams
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Alert Thresholds
 Customize business rules via `config/alert_thresholds.yaml`:
@@ -251,7 +251,7 @@ schedule:
   alerts_check: "0 */2 * * *"   # Every 2 hours
 ```
 
-## 🧪 Testing & Quality Assurance
+##  Testing & Quality Assurance
 
 ### Data Quality Tests
 - **Referential integrity** checks between tables
@@ -266,7 +266,7 @@ dbt test --select tag:critical
 python -m pytest tests/
 ```
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] **Machine Learning Integration** - Demand forecasting with ML models
 - [ ] **Real-time Streaming** - Apache Kafka for live data ingestion
@@ -275,7 +275,7 @@ python -m pytest tests/
 - [ ] **Mobile App** - Field team access to alerts and insights
 - [ ] **Advanced Analytics** - Price optimization and promotion planning
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
 - Code style and standards
@@ -283,18 +283,18 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Testing requirements
 - Documentation updates
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for complete details.
 
-## 👨‍💻 Author
+##  Author
 
 **Seyed Hassani**
-- 🐙 GitHub: [seyed-hassani](https://github.com/seyed-hassani)
-- 💼 LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
-- ✉️ Email: hassas98@mcmaster.ca
+-  GitHub: [seyed-hassani](https://github.com/seyed-hassani)
+-  LinkedIn: [Seyed Hassani](https://www.linkedin.com/in/seyed-hassani/)
+-  Email: hassas98@mcmaster.ca
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Special thanks to the dbt community for best practices and patterns
 - Snowflake documentation and sample datasets
